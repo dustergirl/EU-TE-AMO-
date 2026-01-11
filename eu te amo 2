@@ -9,7 +9,7 @@ def desenhar_coracao():
     plt.figure(figsize=(6, 5))
     plt.plot(x, y, color='black')
     plt.fill_between(x, y, color='red')
-    plt.text(0, 0, "Obrigada por Ser o Melhor Namorado do Mundo", fontsize=10, ha='center', color='black') # Texto fofo
+    plt.text(0, 0, "Obrigada por Ser o Melhor Namorado do Mundo!", fontsize=10, ha='center', color='black') # Texto fofo
     plt.axis('off')
     plt.show()
 
